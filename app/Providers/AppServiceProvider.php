@@ -9,8 +9,7 @@ use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
-    public $singltone = ['Helpers/Interfaces/OrdersServiceInterface'=> 'Services/OrdersXMLService'];
-    /**
+     /**
      * Register any application services.
      *
      * @return void
