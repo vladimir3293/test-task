@@ -65,6 +65,11 @@ return [
             'endpoint' => env('AWS_ENDPOINT'),
         ],
 
+        'xmlOrders' => [
+            'driver' => 'local',
+            'root' => storage_path('app/orders'),
+        ],
+
     ],
 
     /*
