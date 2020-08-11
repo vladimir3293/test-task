@@ -99,6 +99,12 @@ return [
         'emergency' => [
             'path' => storage_path('logs/laravel.log'),
         ],
+
+        'xml-importing-orders' => [
+            'driver' => 'daily',
+            'path' => storage_path('logs/imported-orders/xml-importing-orders.log'),
+            'level' => 'debug'
+        ],
     ],
 
 ];
